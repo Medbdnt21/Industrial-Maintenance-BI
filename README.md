@@ -35,9 +35,17 @@
 
 ## Screenshots
 
-![Dashboard](docs/screenshots/dashboard.png)
+### Overview: KPI cards + machines to check
 
-> Add your captures to `docs/screenshots/`: `dashboard.png` (main view), optionally `alerts.png`, `machine-detail.png`.
+![Overview and alerts](docs/screenshots/part1.png)
+
+### Charts: cost, breakdowns, MTBF/MTTR, monthly trend
+
+![Charts](docs/screenshots/part2.png)
+
+### Machine detail: monthly cost vs breakdowns
+
+![Machine detail](docs/screenshots/part3.png)
 
 ---
 
