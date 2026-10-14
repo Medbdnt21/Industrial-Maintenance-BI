@@ -33,6 +33,14 @@
 
 ---
 
+## Screenshots
+
+![Dashboard](docs/screenshots/dashboard.png)
+
+> Add your captures to `docs/screenshots/`: `dashboard.png` (main view), optionally `alerts.png`, `machine-detail.png`.
+
+---
+
 ## 2. Tech stack
 
 | Layer | Technology | Why |
