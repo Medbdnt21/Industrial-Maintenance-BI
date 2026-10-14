@@ -1,0 +1,110 @@
+:root {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1f2937;
+  background: #f3f4f6;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 { margin: 0 0 4px; font-size: 26px; }
+
+.muted { color: #6b7280; font-size: 14px; }
+
+.error { color: #b91c1c; padding: 24px; }
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.kpi-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kpi-label { font-size: 13px; color: #6b7280; text-transform: uppercase; letter-spacing: 0.04em; }
+.kpi-value { font-size: 28px; font-weight: 700; color: #111827; }
+.kpi-hint { font-size: 12px; color: #9ca3af; }
+
+.panel {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.panel h2 { margin: 0 0 8px; font-size: 18px; }
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+  gap: 16px;
+}
+
+.grid-2 .panel { margin-bottom: 0; }
+
+.alert-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.alert-table th, .alert-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e5e7eb; }
+.alert-table th { color: #6b7280; font-weight: 600; font-size: 12px; text-transform: uppercase; }
+.alert-table tbody tr { cursor: pointer; }
+.alert-table tbody tr:hover { background: #f9fafb; }
+
+.machine-link { color: #2563eb; font-weight: 600; }
+
+.badge {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ok {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+  border-radius: 999px;
+  padding: 2px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.detail-stats { display: flex; gap: 16px; flex-wrap: wrap; font-size: 14px; color: #6b7280; }
+.detail-stats b { color: #111827; }
+
+select, button {
+  font: inherit;
+  padding: 7px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #fff;
+}
+
+button { cursor: pointer; background: #f3f4f6; }
+button:hover { background: #e5e7eb; }
